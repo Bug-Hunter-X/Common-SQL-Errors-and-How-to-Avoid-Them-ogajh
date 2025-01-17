@@ -1,0 +1,1 @@
+This repository demonstrates common errors encountered when working with SQL databases and provides solutions to address them. The examples cover data type mismatches, improper join usage, handling NULL values, and preventing SQL injection vulnerabilities. Each example includes a flawed query and its corrected version, with clear explanations for the fixes.
