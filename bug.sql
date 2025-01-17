@@ -1,0 +1,4 @@
+In SQL, a common error is using the wrong data type for a column.  For example, attempting to store a large number in a column defined as a small integer will lead to data truncation or an error. Another issue can stem from incorrect use of JOIN clauses.  Using an INNER JOIN when a LEFT or RIGHT JOIN is required can lead to incomplete result sets.  Furthermore, neglecting to handle NULL values appropriately can cause unexpected results or errors in aggregate functions. Finally, SQL injection vulnerabilities can occur if user inputs are not properly sanitized before being incorporated into SQL queries.  Here is an example of a query vulnerable to SQL injection:
+
+```sql
+SELECT * FROM users WHERE username = '
